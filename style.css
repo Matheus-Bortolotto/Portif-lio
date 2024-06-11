@@ -209,10 +209,14 @@ section.topo-do-site .flex {
 
 section.especiliadades {
   padding: 40px 4%;
+  flex-wrap: wrap;
 }
 
 section.especiliadades .flex {
+  display: flex;
+  justify-content: center;
   gap: 60px;
+  flex-wrap: wrap;
 }
 
 .especiliadades .especialidades-box {
@@ -221,6 +225,8 @@ section.especiliadades .flex {
   border-radius: 20px;
   margin-top: 45px;
   transition: 0.2s;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 .especiliadades .especialidades-box:hover {
